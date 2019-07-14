@@ -1,0 +1,6 @@
+[submodule "Smack/Pods/Alamofire"]
+	path = Smack/Pods/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "Smack/Smack/Alamofire"]
+	path = Smack/Smack/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
