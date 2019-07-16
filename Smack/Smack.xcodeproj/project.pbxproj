@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB1F11F622DD51D60065F4C2 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1F11F522DD51D60065F4C2 /* GradientView.swift */; };
 		CB621D8022DB11A300B23A31 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB621D7F22DB11A300B23A31 /* Pods_Smack.framework */; };
 		CB621D8222DB120100B23A31 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB621D8122DB120100B23A31 /* Alamofire.framework */; };
 		CB621D8622DB120B00B23A31 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB621D8522DB120B00B23A31 /* Starscream.framework */; };
@@ -105,6 +106,7 @@
 		29108E7CFAD816364033B654 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "../../../Desktop/DEVSLOPE/Smack/Smack/Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 		747CC231FB90BF3619EECC6C /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0F15F3CDC892E0E0F2E14D /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "../../../Desktop/DEVSLOPE/Smack/Smack/Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
+		CB1F11F522DD51D60065F4C2 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		CB621D6522DB106700B23A31 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CB621D6722DB106700B23A31 /* TaskDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
 		CB621D6822DB106700B23A31 /* MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
@@ -295,6 +297,7 @@
 		CB621D9522DB87C500B23A31 /* View  */ = {
 			isa = PBXGroup;
 			children = (
+				CB1F11F522DD51D60065F4C2 /* GradientView.swift */,
 			);
 			path = "View ";
 			sourceTree = "<group>";
@@ -777,6 +780,7 @@
 			files = (
 				CB621D9822DB89F600B23A31 /* ChannelVC.swift in Sources */,
 				CB6ED86722DA45D4001464DA /* ChatVC.swift in Sources */,
+				CB1F11F622DD51D60065F4C2 /* GradientView.swift in Sources */,
 				CB6ED86522DA45D4001464DA /* AppDelegate.swift in Sources */,
 				CB621D9222DB14F500B23A31 /* SWRevealViewController.m in Sources */,
 			);
