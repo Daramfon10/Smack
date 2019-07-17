@@ -23,6 +23,7 @@
 		CB6ED86F22DA45D5001464DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6ED86D22DA45D5001464DA /* LaunchScreen.storyboard */; };
 		CB75157C22DECC4000CA326F /* loginTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB75157B22DECC4000CA326F /* loginTextFields.swift */; };
 		CB75157E22DED3DB00CA326F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB75157D22DED3DB00CA326F /* LoginVC.swift */; };
+		CB75158022DEDC0700CA326F /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB75157F22DEDC0700CA326F /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -230,6 +231,7 @@
 		CB6ED90F22DA618E001464DA /* Pods-Smack-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-Smack-umbrella.h"; sourceTree = "<group>"; };
 		CB75157B22DECC4000CA326F /* loginTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginTextFields.swift; sourceTree = "<group>"; };
 		CB75157D22DED3DB00CA326F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		CB75157F22DEDC0700CA326F /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +325,7 @@
 				CB6ED86622DA45D4001464DA /* ChatVC.swift */,
 				CB621D9722DB89F600B23A31 /* ChannelVC.swift */,
 				CB75157D22DED3DB00CA326F /* LoginVC.swift */,
+				CB75157F22DEDC0700CA326F /* SignUpVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -796,6 +799,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB75157C22DECC4000CA326F /* loginTextFields.swift in Sources */,
+				CB75158022DEDC0700CA326F /* SignUpVC.swift in Sources */,
 				CB621D9822DB89F600B23A31 /* ChannelVC.swift in Sources */,
 				CB75157E22DED3DB00CA326F /* LoginVC.swift in Sources */,
 				CB6ED86722DA45D4001464DA /* ChatVC.swift in Sources */,
