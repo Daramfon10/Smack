@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CB0A237522DEBEE00015F48D /* Constants .swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0A237422DEBEE00015F48D /* Constants .swift */; };
+		CB1E0EFC22E93B09007F4194 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E0EFB22E93B09007F4194 /* RoundedButton.swift */; };
 		CB1F11F622DD51D60065F4C2 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1F11F522DD51D60065F4C2 /* GradientView.swift */; };
+		CB50973022E7A07D00011EFE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50972F22E7A07D00011EFE /* AuthService.swift */; };
 		CB621D8022DB11A300B23A31 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB621D7F22DB11A300B23A31 /* Pods_Smack.framework */; };
 		CB621D8222DB120100B23A31 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB621D8122DB120100B23A31 /* Alamofire.framework */; };
 		CB621D8622DB120B00B23A31 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB621D8522DB120B00B23A31 /* Starscream.framework */; };
@@ -111,7 +113,9 @@
 		747CC231FB90BF3619EECC6C /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0F15F3CDC892E0E0F2E14D /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "../../../Desktop/DEVSLOPE/Smack/Smack/Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 		CB0A237422DEBEE00015F48D /* Constants .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants .swift"; sourceTree = "<group>"; };
+		CB1E0EFB22E93B09007F4194 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		CB1F11F522DD51D60065F4C2 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		CB50972F22E7A07D00011EFE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		CB621D6522DB106700B23A31 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CB621D6722DB106700B23A31 /* TaskDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
 		CB621D6822DB106700B23A31 /* MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
@@ -258,6 +262,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		CB50972E22E7A04F00011EFE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CB50972F22E7A07D00011EFE /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		CB621D6422DB106700B23A31 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,6 +327,7 @@
 			children = (
 				CB1F11F522DD51D60065F4C2 /* GradientView.swift */,
 				CB75157B22DECC4000CA326F /* loginTextFields.swift */,
+				CB1E0EFB22E93B09007F4194 /* RoundedButton.swift */,
 			);
 			path = "View ";
 			sourceTree = "<group>";
@@ -333,6 +346,7 @@
 		CB6ED85822DA45D4001464DA = {
 			isa = PBXGroup;
 			children = (
+				CB50972E22E7A04F00011EFE /* Services */,
 				CB0A237322DEBEBF0015F48D /* Utilities */,
 				CB621D9522DB87C500B23A31 /* View  */,
 				CB621D9622DB87D000B23A31 /* Controller */,
@@ -804,7 +818,9 @@
 				CB75157E22DED3DB00CA326F /* LoginVC.swift in Sources */,
 				CB6ED86722DA45D4001464DA /* ChatVC.swift in Sources */,
 				CB1F11F622DD51D60065F4C2 /* GradientView.swift in Sources */,
+				CB1E0EFC22E93B09007F4194 /* RoundedButton.swift in Sources */,
 				CB6ED86522DA45D4001464DA /* AppDelegate.swift in Sources */,
+				CB50973022E7A07D00011EFE /* AuthService.swift in Sources */,
 				CB0A237522DEBEE00015F48D /* Constants .swift in Sources */,
 				CB621D9222DB14F500B23A31 /* SWRevealViewController.m in Sources */,
 			);
