@@ -509,7 +509,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ALx-qj-Qbu">
-                                <rect key="frame" x="0.0" y="89" width="375" height="578"/>
+                                <rect key="frame" x="0.0" y="109" width="375" height="558"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="z7i-d3-Dg1">
                                     <size key="itemSize" width="100" height="100"/>
@@ -573,8 +573,7 @@
                             <constraint firstItem="fyg-nJ-jnf" firstAttribute="leading" secondItem="gWR-RD-ZDa" secondAttribute="leading" constant="16" id="6th-Ih-iJC"/>
                             <constraint firstItem="ddN-sq-SpX" firstAttribute="centerX" secondItem="MO5-dJ-qOO" secondAttribute="centerX" id="H5K-eX-nT6"/>
                             <constraint firstItem="fyg-nJ-jnf" firstAttribute="top" secondItem="MO5-dJ-qOO" secondAttribute="top" constant="39" id="IuO-17-6WZ"/>
-                            <constraint firstItem="ddN-sq-SpX" firstAttribute="centerY" secondItem="fyg-nJ-jnf" secondAttribute="centerY" id="MRQ-HK-Xt1"/>
-                            <constraint firstItem="ALx-qj-Qbu" firstAttribute="top" secondItem="fyg-nJ-jnf" secondAttribute="bottom" constant="20" id="OM7-Vs-ov5"/>
+                            <constraint firstItem="ALx-qj-Qbu" firstAttribute="top" secondItem="fyg-nJ-jnf" secondAttribute="bottom" constant="40" id="OM7-Vs-ov5"/>
                             <constraint firstItem="ALx-qj-Qbu" firstAttribute="trailing" secondItem="gWR-RD-ZDa" secondAttribute="trailing" id="Xle-Y0-UWX"/>
                             <constraint firstItem="ALx-qj-Qbu" firstAttribute="leading" secondItem="gWR-RD-ZDa" secondAttribute="leading" id="apD-fY-MkY"/>
                             <constraint firstItem="ddN-sq-SpX" firstAttribute="top" secondItem="gWR-RD-ZDa" secondAttribute="top" constant="20" id="fTB-VH-aho"/>
