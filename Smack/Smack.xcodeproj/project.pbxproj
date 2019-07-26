@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		CB0A237522DEBEE00015F48D /* Constants .swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0A237422DEBEE00015F48D /* Constants .swift */; };
 		CB1E0EFC22E93B09007F4194 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E0EFB22E93B09007F4194 /* RoundedButton.swift */; };
+		CB1E0EFE22EB5ECB007F4194 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E0EFD22EB5ECB007F4194 /* UserDataService.swift */; };
+		CB1E0F0022EB824A007F4194 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E0EFF22EB824A007F4194 /* AvatarPickerVC.swift */; };
+		CB1E0F0222EB8BA0007F4194 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E0F0122EB8BA0007F4194 /* AvatarCell.swift */; };
 		CB1F11F622DD51D60065F4C2 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1F11F522DD51D60065F4C2 /* GradientView.swift */; };
 		CB50973022E7A07D00011EFE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50972F22E7A07D00011EFE /* AuthService.swift */; };
 		CB621D8022DB11A300B23A31 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB621D7F22DB11A300B23A31 /* Pods_Smack.framework */; };
@@ -114,6 +117,9 @@
 		7B0F15F3CDC892E0E0F2E14D /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "../../../Desktop/DEVSLOPE/Smack/Smack/Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 		CB0A237422DEBEE00015F48D /* Constants .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants .swift"; sourceTree = "<group>"; };
 		CB1E0EFB22E93B09007F4194 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		CB1E0EFD22EB5ECB007F4194 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		CB1E0EFF22EB824A007F4194 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		CB1E0F0122EB8BA0007F4194 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		CB1F11F522DD51D60065F4C2 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		CB50972F22E7A07D00011EFE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		CB621D6522DB106700B23A31 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -266,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				CB50972F22E7A07D00011EFE /* AuthService.swift */,
+				CB1E0EFD22EB5ECB007F4194 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -328,6 +335,7 @@
 				CB1F11F522DD51D60065F4C2 /* GradientView.swift */,
 				CB75157B22DECC4000CA326F /* loginTextFields.swift */,
 				CB1E0EFB22E93B09007F4194 /* RoundedButton.swift */,
+				CB1E0F0122EB8BA0007F4194 /* AvatarCell.swift */,
 			);
 			path = "View ";
 			sourceTree = "<group>";
@@ -339,6 +347,7 @@
 				CB621D9722DB89F600B23A31 /* ChannelVC.swift */,
 				CB75157D22DED3DB00CA326F /* LoginVC.swift */,
 				CB75157F22DEDC0700CA326F /* SignUpVC.swift */,
+				CB1E0EFF22EB824A007F4194 /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -814,15 +823,18 @@
 			files = (
 				CB75157C22DECC4000CA326F /* loginTextFields.swift in Sources */,
 				CB75158022DEDC0700CA326F /* SignUpVC.swift in Sources */,
+				CB1E0F0222EB8BA0007F4194 /* AvatarCell.swift in Sources */,
 				CB621D9822DB89F600B23A31 /* ChannelVC.swift in Sources */,
 				CB75157E22DED3DB00CA326F /* LoginVC.swift in Sources */,
 				CB6ED86722DA45D4001464DA /* ChatVC.swift in Sources */,
 				CB1F11F622DD51D60065F4C2 /* GradientView.swift in Sources */,
+				CB1E0EFE22EB5ECB007F4194 /* UserDataService.swift in Sources */,
 				CB1E0EFC22E93B09007F4194 /* RoundedButton.swift in Sources */,
 				CB6ED86522DA45D4001464DA /* AppDelegate.swift in Sources */,
 				CB50973022E7A07D00011EFE /* AuthService.swift in Sources */,
 				CB0A237522DEBEE00015F48D /* Constants .swift in Sources */,
 				CB621D9222DB14F500B23A31 /* SWRevealViewController.m in Sources */,
+				CB1E0F0022EB824A007F4194 /* AvatarPickerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
